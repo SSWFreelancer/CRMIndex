@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CRM</title>
+	<link rel="stylesheet" href="css/nice-select2.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo">
+					<img src="img/logo.webp" alt="">
+				</a>
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="index.html" class="menu__link active">Рейтинг CRM</a></li>
+						<li class="menu__item"><a href="ratings.html" class="menu__link">Все сервисы</a></li>
+						<li class="menu__item"><a href="blog.html" class="menu__link">Блог</a></li>
+					</ul>
+				</nav>
+				<div class="header__actions">
+					<div class="header__search">
+						<img src="img/header/search.svg" alt="">
+					</div>
+					<div data-topopup="#login" class="header__profile">
+						<img src="img/header/user.svg" alt="">
+					</div>
+					<div class="header__burger"><span></span></div>
+				</div>
+			</div>
+			<form class="search">
+				<div class="search__container">
+					<input type="text" placeholder="Поиск">
+					<button><img src="img/header/search.svg" alt=""></button>					
+				</div>
+			</form>
+		</header>
+		<div class="crm">
+			<div class="crm__container">
+				<div class="crm__body">	
+					<div class="crm-card">
+						<div class="crm-card__image">
+							<img src="img/crm.jpg" alt="">
+						</div>
+						<div class="crm-card__body">
+							<div class="crm-card__name">
+								ПРОСТОЙ БИЗНЕС
+							</div>
+							<div class="crm-card__actions">
+								<div class="crm-card__stars">
+									<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></span>
+									<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></span>
+									<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></span>
+									<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></span>
+									<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg></span>
+								</div>
+								<div class="crm-card__reviews">
+									(10 отзывов)
+								</div>
+							</div>
+							<div class="crm-card__text">
+								CRM-система «Простой бизнес» – больше, чем просто CRM. Одна программа для управления всей Вашей компанией. Она универсальна и подходит для любой сферы деятельности. Более 140 тысяч пользователей по всему миру. Входит в реестр российского ПО, является резидентом инновационного центра «Сколково».
+							</div>
+						</div>
+						<div class="crm-card__links">
+							<a href="#" target="_blank" class="button">
+								<img src="img/link.svg" alt="">
+								На сайт
+							</a>
+							<a href="#" class="button black">
+								Нужна помощь?
+							</a>
+						</div>
+					</div>
+					<div class="crm__content">
+						<p>
+							ТОП-5 СИСТЕМ
+						</p>	
+						<div class="crm__systems">
+							<a href="#">
+								<b>1.</b>
+								<span class="crm__logotypes">
+									<img src="img/crm.jpg" alt="">
+								</span>
+								РосБизнесСофт
+							</a>
+							<a href="#">
+								<b>2.</b>
+								<span class="crm__logotypes">
+									<img src="img/crm.jpg" alt="">
+								</span>
+								РосБизнесСофт
+							</a>
+							<a href="#">
+								<b>3.</b>
+								<span class="crm__logotypes">
+									<img src="img/crm.jpg" alt="">
+								</span>
+								РосБизнесСофт
+							</a>
+							<a href="#">
+								<b>4.</b>
+								<span class="crm__logotypes">
+									<img src="img/crm.jpg" alt="">
+								</span>
+								РосБизнесСофт
+							</a>
+							<a href="#">
+								<b>5.</b>
+								<span class="crm__logotypes">
+									<img src="img/crm.jpg" alt="">
+								</span>
+								РосБизнесСофт
+							</a>
+						</div>
+					</div>	
+				</div>	
+			</div>
+		</div>
+		<div class="crmdescr">
+			<div class="crmdescr__container">
+				<div class="crmdescr__left">
+					<a href="#crmdescr">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 512"><path d="M220.6 130.3l-67.2 28.2V43.2L98.7 233.5l54.7-24.2v130.3l67.2-209.3zm-83.2-96.7l-1.3 4.7-15.2 52.9C80.6 106.7 52 145.8 52 191.5c0 52.3 34.3 95.9 83.4 105.5v53.6C57.5 340.1 0 272.4 0 191.6c0-80.5 59.8-147.2 137.4-158zm311.4 447.2c-11.2 11.2-23.1 12.3-28.6 10.5-5.4-1.8-27.1-19.9-60.4-44.4-33.3-24.6-33.6-35.7-43-56.7-9.4-20.9-30.4-42.6-57.5-52.4l-9.7-14.7c-24.7 16.9-53 26.9-81.3 28.7l2.1-6.6 15.9-49.5c46.5-11.9 80.9-54 80.9-104.2 0-54.5-38.4-102.1-96-107.1V32.3C254.4 37.4 320 106.8 320 191.6c0 33.6-11.2 64.7-29 90.4l14.6 9.6c9.8 27.1 31.5 48 52.4 57.4s32.2 9.7 56.8 43c24.6 33.2 42.7 54.9 44.5 60.3s.7 17.3-10.5 28.5zm-9.9-17.9c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8 8-3.6 8-8z"/></svg>
+						<p>
+							Обзор
+						</p>
+					</a>
+					<a href="#crmcosts">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.7 403.7c-22.1 8-45.9 12.3-70.7 12.3s-48.7-4.4-70.7-12.3c-.3-.1-.5-.2-.8-.3c-30-11-56.8-28.7-78.6-51.4C70 314.6 48 263.9 48 208C48 93.1 141.1 0 256 0S464 93.1 464 208c0 55.9-22 106.6-57.9 144c-1 1-2 2.1-3 3.1c-21.4 21.4-47.4 38.1-76.3 48.6zM256 84c-11 0-20 9-20 20v14c-7.6 1.7-15.2 4.4-22.2 8.5c-13.9 8.3-25.9 22.8-25.8 43.9c.1 20.3 12 33.1 24.7 40.7c11 6.6 24.7 10.8 35.6 14l1.7 .5c12.6 3.8 21.8 6.8 28 10.7c5.1 3.2 5.8 5.4 5.9 8.2c.1 5-1.8 8-5.9 10.5c-5 3.1-12.9 5-21.4 4.7c-11.1-.4-21.5-3.9-35.1-8.5c-2.3-.8-4.7-1.6-7.2-2.4c-10.5-3.5-21.8 2.2-25.3 12.6s2.2 21.8 12.6 25.3c1.9 .6 4 1.3 6.1 2.1l0 0 0 0c8.3 2.9 17.9 6.2 28.2 8.4V312c0 11 9 20 20 20s20-9 20-20V298.2c8-1.7 16-4.5 23.2-9c14.3-8.9 25.1-24.1 24.8-45c-.3-20.3-11.7-33.4-24.6-41.6c-11.5-7.2-25.9-11.6-37.1-15l-.7-.2c-12.8-3.9-21.9-6.7-28.3-10.5c-5.2-3.1-5.3-4.9-5.3-6.7c0-3.7 1.4-6.5 6.2-9.3c5.4-3.2 13.6-5.1 21.5-5c9.6 .1 20.2 2.2 31.2 5.2c10.7 2.8 21.6-3.5 24.5-14.2s-3.5-21.6-14.2-24.5c-6.5-1.7-13.7-3.4-21.1-4.7V104c0-11-9-20-20-20zM48 352H64c19.5 25.9 44 47.7 72.2 64H64v32H256 448V416H375.8c28.2-16.3 52.8-38.1 72.2-64h16c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V400c0-26.5 21.5-48 48-48z"/></svg>
+						<p>
+							Цены
+						</p>
+					</a>
+					<a href="#crmintegration">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"/></svg>
+						<p>
+							Интеграция
+						</p>
+					</a>
+					<a href="#crmfunctions">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M374.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-320 320c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l320-320zM128 128A64 64 0 1 0 0 128a64 64 0 1 0 128 0zM384 384a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/></svg>
+						<p>
+							Функции
+						</p>
+					</a>
+					<a href="#crmreviews">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M168.2 384.9c-15-5.4-31.7-3.1-44.6 6.4c-8.2 6-22.3 14.8-39.4 22.7c5.6-14.7 9.9-31.3 11.3-49.4c1-12.9-3.3-25.7-11.8-35.5C60.4 302.8 48 272 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-31.6 0-61.3-5.5-87.8-15.1zM26.3 423.8c-1.6 2.7-3.3 5.4-5.1 8.1l-.3 .5c-1.6 2.3-3.2 4.6-4.8 6.9c-3.5 4.7-7.3 9.3-11.3 13.5c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c5.1 0 10.2-.3 15.3-.8l.7-.1c4.4-.5 8.8-1.1 13.2-1.9c.8-.1 1.6-.3 2.4-.5c17.8-3.5 34.9-9.5 50.1-16.1c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9zM144 272a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm144-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm80 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
+						<p>
+							Отзывы
+						</p>
+					</a>
+					<a href="#crmother">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z"/></svg>
+						<p>
+							Похожие
+						</p>
+					</a>
+				</div>
+				<div class="crmdescr__body">
+					<div class="crmdescr__block crm-descr" id="crmdescr">
+						<div class="crm-descr__left">
+							<div class="crm-descr__content">
+								<div class="crm-descr__cost">
+									<p>
+										Стоимость
+									</p>
+									<div class="crm-descr__cost-wrapper">
+										<b>1 000</b>
+										<span>
+											в месяц
+										</span>
+									</div>
+								</div>
+								<div class="crm-descr__items">
+									<div class="crm-descr__item">
+										<span>Бесплатная версия</span>
+										<b></b>
+										<div class="crm-descr__check">
+											<img src="img/checked-w.svg" alt="">
+										</div>
+									</div>
+									<div class="crm-descr__item">
+										<span>Пробный период</span>
+										<b></b>
+										<div class="crm-descr__check">
+											<img src="img/checked-w.svg" alt="">
+										</div>
+									</div>
+									<div class="crm-descr__item">
+										<span>Подписка</span>
+										<b></b>
+										<div class="crm-descr__check">
+											<img src="img/checked-w.svg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="crm-descr__body">
+								<div class="crm-descr__row">
+									<p>
+										Платформы:
+									</p>
+									<b></b>
+									<div class="crm-descr__images">
+										<img src="img/descr/chrome.webp" alt="">
+										<img src="img/descr/windows.webp" alt="">
+										<img src="img/descr/apple.webp" alt="">
+										<img src="img/descr/android.webp" alt="">
+										<img src="img/descr/os_apple_new.webp" alt="">
+									</div>
+								</div>
+								<div class="crm-descr__row">
+									<p>
+										Размер компании:
+									</p>
+									<b></b>
+									<div class="crm-descr__images end">
+										<img src="img/descr/1.webp" alt="">
+										<img src="img/descr/2.webp" alt="">
+										<img src="img/descr/3.webp" alt="">
+									</div>
+								</div>
+								<div class="crm-descr__row">
+									<p>
+										Установка:
+									</p>
+									<b></b>
+									<div class="crm-descr__images end">
+										<img src="img/descr/cloud.webp" alt="">
+										<img src="img/descr/server.webp" alt="">
+									</div>
+								</div>
+								<div class="crm-descr__text">
+									<p>
+										Отрасли применения:
+									</p>
+									<div class="crm-descr__textwrap">
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+										<span><a href="#" target="_blank">Ритейл</a>,</span>
+									</div>
+									<div class="crm-descr__more">
+										<span>
+											Показать все
+										</span>
+										<span>
+											Скрыть
+										</span>
+									</div>
+								</div>
+								<div class="crm-descr__row">
+									<p>
+										Отделы применения:
+									</p>
+									<b></b>
+									<div class="crm-descr__images end">
+										<span>
+											<a href="#">
+												Продажи
+											</a>
+											,
+										</span>
+										<span>
+											<a href="#">
+												 Производство 
+											</a>											
+										</span>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="crm-descr__right">
+							<div class="crm-descr__stat">
+								<img src="img/descr/ico-prize.png" alt="">
+								<span>								
+									№2
+								</span>
+								<small>
+									в общем рейтенге
+								</small>
+							</div>
+							<div class="crm-descr__stat">
+								<img src="img/descr/ico-sector.webp" alt="">
+								<span>								
+									66
+								</span>
+								<small>
+									баллов
+								</small>
+							</div>
+							<div class="crm-descr__bar">
+								<span class="yellow" style="width:15%;">15</span>
+								<span class="green" style="width:17%;">17</span>
+								<span class="blue" style="width:7%;">7</span>
+								<span class="pink" style="width:15%;">15</span>
+								<span class="purple" style="width:12%;">12</span>
+							</div>
+							<div class="crm-descr__stat">
+								<b class="crm-circle yellow">
+								</b>
+								<span>								
+									Отзывы
+								</span>
+							</div>
+							<div class="crm-descr__stat">
+								<b class="crm-circle green">
+								</b>
+								<span>								
+									Интеграция
+								</span>
+							</div>
+							<div class="crm-descr__stat">
+								<b class="crm-circle blue">
+								</b>
+								<span>								
+									Медиа
+								</span>
+							</div>
+							<div class="crm-descr__stat">
+								<b class="crm-circle pink">
+								</b>
+								<span>								
+									Отзывы
+								</span>
+							</div>
+							<div class="crm-descr__stat">
+								<b class="crm-circle purple">
+								</b>
+								<span>								
+									Безопасность
+								</span>
+							</div>
+							<p>
+								Независимый автоматический рейтинг основанный на 5 параметрах, за каждый из которых начисляется до 20 баллов.
+							</p>
+							<a href="#" class="button">
+								Подробнее о формуле расчета
+							</a>
+						</div>
+					</div>
+					<div class="crmdescr__block crm-costs" id="crmcosts">
+						<div class="crm-costs__title">
+							Цены на ПРОСТОЙ БИЗНЕС
+						</div>
+						<div class="crm-costs__subtitle">
+							<img src="img/descr/icon-price.webp" alt="">
+							Список тарифных планов
+						</div>
+						<div class="crm-costs__wrapper">
+							<table>
+	                    	<thead>
+	                    		<tr>
+		                        <th>№</th>
+		                        <th>Название</th>
+		                        <th>Стоимость</th>
+		                        <th>Пользователей</th>		                    			
+	                    		</tr>
+	                    	</thead>
+		                  <tbody>
+									<tr>
+                              <td><b>1</b></td>
+                              <td>
+                                <b> FREE / неограниченное количество сотрудников </b>                               
+                              </td>
+                              <td> 
+                              	<span class="green">Бесплатно</span>                                                                                                  
+                              </td>
+                              <td>
+                                	неограниченно
+                              </td>
+                           </tr>
+									<tr>
+                              <td><b>2</b></td>
+                              <td>
+                                <b>ПРОФИ / неограниченное количество сотрудников	</b>                               
+                              </td>
+                              <td>
+                              	<p>
+                           			<b>
+                           				1990 ₽
+                           			</b>
+                              		<span class="blue">
+                              			в месяц	
+                              		</span>
+                              	</p>
+                              </td>
+                              <td>
+                                	неограниченно
+                              </td>
+                           </tr>
+									<tr>
+                              <td><b>3</b></td>
+                              <td>
+                                <b>VIP / неограниченное количество сотрудников	</b>                               
+                              </td>
+                              <td>
+                              	<p>
+                           			<b>
+                           				3990 ₽
+                           			</b>
+                              		<span class="blue">
+                              			в месяц	
+                              		</span>
+                              	</p>
+                              </td>
+                              <td>
+                                	неограниченно
+                              </td>
+                           </tr>
+									<tr>
+                              <td><b>4</b></td>
+                              <td>
+                                <b>КОРОБКА / 30 сотрудников	</b>                               
+                              </td>
+                              <td>
+                              	<p>
+                           			<b>
+                           				29990 ₽
+                           			</b>
+                              		<span class="blue">
+                              			в месяц	
+                              		</span>
+                              	</p>
+                              </td>
+                              <td>
+                                	неограниченно
+                              </td>
+                           </tr>
+									<tr>
+                              <td><b>5</b></td>
+                              <td>
+                                <b>ДОПОЛНИТЕЛЬНО/внедрение	</b>                               
+                              </td>
+                              <td>
+                              	<p>
+                           			<b>
+                           				39990 ₽
+                           			</b>
+                              		<span class="blue">
+                              			в месяц	
+                              		</span>
+                              	</p>
+                              </td>
+                              <td>
+                                	неограниченно
+                              </td>
+                           </tr>
+
+                        </tbody>
+                     </table>
+						</div>
+						<a href="#" class="button">
+							Узнать больше о тарифах
+						</a>
+					</div>
+					<div class="crmdescr__block crm-integration" id="crmintegration">
+						<div class="crm-integration__title">
+							Интеграция с 11 сервисами, 0 продуктов:
+						</div>
+						<div class="crm-integration__cards">
+							<a href="#" target="_blank">
+								<img src="img/descr/integration.webp" alt="">
+								<span>
+									Sipnet.ru
+								</span>
+							</a>
+							<a href="#" target="_blank">
+								<img src="img/descr/integration1.webp" alt="">
+								<span>
+									UniSender
+								</span>
+							</a>
+							<a href="#" target="_blank">
+								<img src="img/descr/integration2.webp" alt="">
+								<span>
+									Новофон
+								</span>
+							</a>
+							<a href="#" target="_blank">
+								<img src="img/descr/integration3.webp" alt="">
+								<span>
+									Mango Office
+								</span>
+							</a>
+							<a href="#" target="_blank">
+								<img src="img/descr/integration4.webp" alt="">
+								<span>
+									Google Календарь
+								</span>
+							</a>
+						</div>
+						<a href="#" class="button">
+							Все интеграции ПРОСТОЙ БИЗНЕС
+						</a>
+					</div>
+					<div class="crmdescr__block crm-functions" id="crmfunctions">
+						<div class="crm-functions__title">
+							Функционал ПРОСТОЙ БИЗНЕС
+						</div>
+						<div class="crm-functions__subtitle">
+							Платформы: Онлайн в браузере (везде), Windows, Mac, Android (мобайл приложение), Apple (мобайл приложение)
+						</div>
+						<div class="crm-functions__items">
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Воронка продаж
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Отчёты
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								База клиентов
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Интеграция с почтой
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Управление заказами
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Email-рассылки
+							</p>
+							<p>
+								<img src="img/descr/x.webp" alt="">
+								Продуктовый каталог
+							</p>
+							<p>
+								<img src="img/descr/x.webp" alt="">
+								Шаблоны проектов
+							</p>	
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Колл-центр и телефония
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Хранилище файлов
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								История взаимодействия с клиентом
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Диаграмма Ганта
+							</p>		
+							<p>
+								<img src="img/descr/x.webp" alt="">
+								Системы лояльности
+							</p>
+							<p>
+								<img src="img/descr/x.webp" alt="">
+								Биллинг и счета
+							</p>								
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Мониторинг эффективности персонала
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Экспорт/импорт данных
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Тайм-менеджмент
+							</p>
+							<p>
+								<img src="img/descr/x.webp" alt="">
+								Подключение Фис.регистратора
+							</p>						
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Управление поддержкой
+							</p>
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								API для интеграции
+							</p>
+							<p>
+								<img src="img/descr/x.webp" alt="">
+								Открытый исходный код
+							</p>	
+							<p>
+								<img src="img/descr/ok.webp" alt="">
+								Веб-формы
+							</p>
+						</div>
+					</div>
+					<div class="crm-help">
+						<div class="crm-help__card">
+							<img src="img/descr/crm.webp" alt="">
+							<p>
+								Какая CRM подойдет вашей компании?
+							</p>
+						</div>
+						<div class="crm-help__card">
+							<img src="img/descr/wallet.webp" alt="">
+							<p>
+								Сколько будет стоить внедрение и доработка?
+							</p>
+						</div>
+						<div class="crm-help__card">
+							<img src="img/descr/employees.webp" alt="">
+							<p>
+								Как обучить сотрудников и автоматизировать процессы?
+							</p>
+						</div>
+						<a data-topopup="#crmpopup" href="#" class="button">
+							Узнать
+						</a>												
+					</div>
+					<div class="crmdescr__block reviews" id="crmreviews">
+						<div class="reviews__aside">
+							<div class="reviews__title">
+								Отзывы
+							</div>
+							<b>
+								5
+							</b>
+							<div class="crm-card__stars">
+								<img src="img/star.svg" alt="">
+								<img src="img/star.svg" alt="">
+								<img src="img/star.svg" alt="">
+								<img src="img/star.svg" alt="">
+								<img src="img/star.svg" alt="">
+							</div>
+							<div class="reviews__count">
+								2 отзыва
+							</div>
+							<a href="#" class="button black">
+								Написать отзыв
+							</a>
+						</div>
+						<div class="reviews__body">
+							<div class="reviews__review">
+								<div class="reviews__left">
+									<div class="reviews__image">
+										<img src="img/reviews/1.jpg" alt="">
+									</div>
+									<p>
+										Здесь с окт. 2023
+									</p>
+									<span>
+										1 отзыв
+									</span>
+									<img src="img/ico-vk.webp" alt="">
+								</div>
+								<div class="reviews__wrapper">
+									<div class="reviews__overtitle">
+										Здоровская площадка
+									</div>
+									<div class="reviews__name">
+										<p>
+											Юлия Матющенко
+										</p>
+										<span>
+											17 окт. 2023 г.
+										</span>
+									</div>
+									<div class="reviews__grades">
+										<div class="reviews__grade">
+											<small>Удобство</small>
+											<div class="reviews__grade-bottom">
+												<div class="crm-card__stars">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+												</div>
+												<span>
+													5 / 5
+												</span>												
+											</div>
+										</div>
+										<div class="reviews__grade">
+											<small>Функционал</small>
+											<div class="reviews__grade-bottom">
+												<div class="crm-card__stars">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+												</div>
+												<span>
+													5 / 5
+												</span>												
+											</div>
+										</div>
+										<div class="reviews__grade">
+											<small>Служба поддержки</small>
+											<div class="reviews__grade-bottom">
+												<div class="crm-card__stars">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+												</div>
+												<span>
+													5 / 5
+												</span>												
+											</div>
+										</div>
+										<div class="reviews__grade">
+											<small>Справедливость цены</small>
+											<div class="reviews__grade-bottom">
+												<div class="crm-card__stars">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+												</div>
+												<span>
+													5 / 5
+												</span>												
+											</div>
+										</div>
+									</div>
+									<div class="reviews__text">
+										<p class="green">Плюсы:</p>
+										<p>
+											Простота. Интеграция с IP телефонией Возможность подключить всех сотрудников а не платить за каждого пользователя.
+										</p>
+										<p class="red">
+											Минусы:
+										</p>
+										<p>
+											Минусов нет.
+										</p>
+										<p>
+											В целом:
+										</p>
+										<p>
+											Удобно работать. Очень оперативная тех. поддержка. При возникновении каких то вопросов менеджер оперативно решает любую проблему.
+										</p>
+									</div>
+									<div class="reviews__grade">
+										<small>Общий рейтинг</small>
+										<div class="reviews__grade-bottom">
+											<div class="crm-card__stars">
+												<img src="img/star.svg" alt="">
+												<img src="img/star.svg" alt="">
+												<img src="img/star.svg" alt="">
+												<img src="img/star.svg" alt="">
+												<img src="img/star.svg" alt="">
+											</div>											
+										</div>
+									</div>
+									<a href="#" class="button">Ответить</a>
+								</div>
+							</div>
+							<div class="reviews__review">
+								<div class="reviews__left">
+									<div class="reviews__image">
+										<img src="img/reviews/avatar.webp" alt="">
+									</div>
+									<p>
+										Здесь с окт. 2023
+									</p>
+									<span>
+										1 отзыв
+									</span>
+								</div>
+								<div class="reviews__wrapper">
+									<div class="reviews__overtitle">
+										Здоровская площадка
+									</div>
+									<div class="reviews__name">
+										<p>
+											Юлия Матющенко
+										</p>
+										<span>
+											17 окт. 2023 г.
+										</span>
+									</div>
+									<div class="reviews__grades">
+										<div class="reviews__grade">
+											<small>Удобство</small>
+											<div class="reviews__grade-bottom">
+												<div class="crm-card__stars">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+												</div>
+												<span>
+													5 / 5
+												</span>												
+											</div>
+										</div>
+										<div class="reviews__grade">
+											<small>Функционал</small>
+											<div class="reviews__grade-bottom">
+												<div class="crm-card__stars">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star-notactive.svg" alt="">
+												</div>
+												<span>
+													4 / 5
+												</span>												
+											</div>
+										</div>
+										<div class="reviews__grade">
+											<small>Служба поддержки</small>
+											<div class="reviews__grade-bottom">
+												<div class="crm-card__stars">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+												</div>
+												<span>
+													5 / 5
+												</span>												
+											</div>
+										</div>
+										<div class="reviews__grade">
+											<small>Справедливость цены</small>
+											<div class="reviews__grade-bottom">
+												<div class="crm-card__stars">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star.svg" alt="">
+													<img src="img/star-notactive.svg" alt="">
+												</div>
+												<span>
+													4 / 5
+												</span>												
+											</div>
+										</div>
+									</div>
+									<div class="reviews__text">
+										<p class="green">Плюсы:</p>
+										<p>
+											Простота. Интеграция с IP телефонией Возможность подключить всех сотрудников а не платить за каждого пользователя.
+										</p>
+										<p class="red">
+											Минусы:
+										</p>
+										<p>
+											Минусов нет.
+										</p>
+										<p>
+											В целом:
+										</p>
+										<p>
+											Удобно работать. Очень оперативная тех. поддержка. При возникновении каких то вопросов менеджер оперативно решает любую проблему.
+										</p>
+									</div>
+									<div class="reviews__grade">
+										<small>Общий рейтинг</small>
+										<div class="reviews__grade-bottom">
+											<div class="crm-card__stars">
+												<img src="img/star.svg" alt="">
+												<img src="img/star.svg" alt="">
+												<img src="img/star.svg" alt="">
+												<img src="img/star.svg" alt="">
+												<img src="img/star-notactive.svg" alt="">
+											</div>											
+										</div>
+									</div>
+									<a href="#" class="button b">Ответить</a>
+								</div>
+							</div>
+							<div class="reviews__more">
+								<a href="#" class="button black">
+									Еще 5 отзывов
+								</a>								
+							</div>
+
+						</div>
+					</div>
+					<div class="crm-other" id="crmother">
+						<div class="crm-other__title">Аналоги ПРОСТОЙ БИЗНЕС</div>
+						<div class="cards">
+							<div class="card">
+								<div class="card__image">
+									<img src="img/crm.jpg" alt="">
+								</div>
+								<div class="card__body">
+									<div class="card__name">
+										РосБизнесСофт
+									</div>
+									<div class="card__actions">
+										<div class="card__stars">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+										</div>
+										<div class="card__reviews">
+											(108 отзывов)
+										</div>
+									</div>
+									<div class="card__text">
+										Российская CRM система для малых и средних предприятий. Продукт предназначен для управления отношениями с клиентами, поставщиками, автоматизации производства, сервисного обслуживан Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae non animi velit expedita ipsa explicabo magni repellat mollitia reiciendis! Ut mollitia blanditiis nostrum rem tempora quam modi voluptate voluptatibus saepe?
+									</div>
+								</div>
+								<div class="card__links">
+									<a href="#" target="_blank" class="button">
+										<img src="img/link.svg" alt="">
+										На сайт
+									</a>
+									<a href="#" class="button black">
+										Обзор
+									</a>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<img src="img/crm.jpg" alt="">
+								</div>
+								<div class="card__body">
+									<div class="card__name">
+										РосБизнесСофт
+									</div>
+									<div class="card__actions">
+										<div class="card__stars">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star-notactive.svg" alt="">
+										</div>
+										<div class="card__reviews">
+											(108 отзывов)
+										</div>
+									</div>
+									<div class="card__text">
+										Российская CRM система для малых и средних предприятий. Продукт предназначен для управления отношениями с клиентами, поставщиками, автоматизации производства, сервисного обслуживан Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae non animi velit expedita ipsa explicabo magni repellat mollitia reiciendis! Ut mollitia blanditiis nostrum rem tempora quam modi voluptate voluptatibus saepe?
+									</div>
+								</div>
+								<div class="card__links">
+									<a href="#" target="_blank" class="button">
+										<img src="img/link.svg" alt="">
+										На сайт
+									</a>
+									<a href="#" class="button black">
+										Обзор
+									</a>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<img src="img/crm.jpg" alt="">
+								</div>
+								<div class="card__body">
+									<div class="card__name">
+										РосБизнесСофт
+									</div>
+									<div class="card__actions">
+										<div class="card__stars">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+										</div>
+										<div class="card__reviews">
+											(108 отзывов)
+										</div>
+									</div>
+									<div class="card__text">
+										Российская CRM система для малых и средних предприятий. Продукт предназначен для управления отношениями с клиентами, поставщиками, автоматизации производства, сервисного обслуживан Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae non animi velit expedita ipsa explicabo magni repellat mollitia reiciendis! Ut mollitia blanditiis nostrum rem tempora quam modi voluptate voluptatibus saepe?
+									</div>
+								</div>
+								<div class="card__links">
+									<a href="#" target="_blank" class="button">
+										<img src="img/link.svg" alt="">
+										На сайт
+									</a>
+									<a href="#" class="button black">
+										Обзор
+									</a>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card__image">
+									<img src="img/crm.jpg" alt="">
+								</div>
+								<div class="card__body">
+									<div class="card__name">
+										РосБизнесСофт
+									</div>
+									<div class="card__actions">
+										<div class="card__stars">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star-notactive.svg" alt="">
+											<img src="img/star-notactive.svg" alt="">
+										</div>
+										<div class="card__reviews">
+											(108 отзывов)
+										</div>
+									</div>
+									<div class="card__text">
+										Российская CRM система для малых и средних предприятий. Продукт предназначен для управления отношениями с клиентами, поставщиками, автоматизации производства, сервисного обслуживан Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae non animi velit expedita ipsa explicabo magni repellat mollitia reiciendis! Ut mollitia blanditiis nostrum rem tempora quam modi voluptate voluptatibus saepe?
+									</div>
+								</div>
+								<div class="card__links">
+									<a href="#" target="_blank" class="button">
+										<img src="img/link.svg" alt="">
+										На сайт
+									</a>
+									<a href="#" class="button black">
+										Обзор
+									</a>
+								</div>
+							</div>								
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__column">
+						<a href="#" class="footer__logo">
+							<img src="img/logo-w.webp" alt="">
+						</a>
+						<p>Сайт отзывов о сервисах и программах для бизнеса.</p>
+						<p>
+							Вся информация на сайте носит ознакомительный характер. <br>
+							Администрация проекта не несет ответственности за личное мнение пользователей о каком-либо продукте.
+						</p>
+					</div>
+					<div class="footer__column">
+						<div class="footer__column-title">
+							Информация на сайте
+						</div>
+						<ul>
+							<li><a href="#">Что такое CRMindex?</a></li>
+							<li><a href="#">Как мы проверяем отзывы?</a></li>
+							<li><a href="#">Пользовательское соглашение</a></li>
+							<li><a href="#">Политика конфиденциальности</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__column-title">
+							Владельцам компаний
+						</div>
+						<ul>
+							<li><a href="#">Добавить сервис в каталог</a></li>
+							<li><a href="#">Реклама</a></li>
+							<li><a href="#">Блоги компаний</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__column-title">
+							Навигация
+						</div>
+						<ul>
+							<li><a href="#">Поиск аналогов</a></li>
+							<li><a href="#">Управление проектами</a></li>
+							<li><a href="#">ERP-системы</a></li>
+							<li><a href="#">WMS-системы</a></li>
+							<li><a href="#">HRM</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__socials">
+						<a href="#" target="_blank">
+							<img src="img/ico-vk.webp" alt="">
+						</a>
+					</div>
+					<p>
+						© 2016 - 2024. Все права защищены.
+					</p>
+				</div>
+			</div>
+		</footer>
+		<div class="pickup">
+		  <div data-topopup="#crmpopup" class="pickup__content">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434.168 434.168" fill="#fff">
+			    <g>
+			      <path d="M332.318,230.196V34.967H40.93v364.235h134.038c9.616,0,17.483,7.867,17.483,17.483s-7.867,17.483-17.483,17.483H23.446c-9.616,0-17.483-7.867-17.483-17.483V17.483C5.963,7.867,13.831,0,23.446,0h326.354c9.616,0,17.483,7.867,17.483,17.483v212.713c0,9.616-7.867,17.483-17.483,17.483S332.318,239.812,332.318,230.196z M422.357,272.739c-7.285-6.411-18.357-5.828-24.768,1.457l-95.867,106.648l-48.079-46.331c-6.993-6.702-18.066-6.411-24.768,0.583s-6.411,18.066,0.583,24.768l61.191,58.86c3.205,3.205,7.576,4.954,12.238,4.954c0.291,0,0.291,0,0.583,0c4.662-0.291,9.324-2.331,12.238-5.828l107.814-120.052C430.224,290.222,429.641,279.15,422.357,272.739z M268.212,101.986H110.863c-9.616,0-17.483,7.867-17.483,17.483s7.867,17.483,17.483,17.483h157.349c9.616,0,17.483-7.867,17.483-17.483S277.828,101.986,268.212,101.986z M285.696,215.627c0-9.616-7.867-17.483-17.483-17.483H110.863c-9.616,0-17.483,7.867-17.483,17.483c0,9.616,7.867,17.483,17.483,17.483h157.349C277.828,233.11,285.696,225.243,285.696,215.627z M110.863,291.388c-9.616,0-17.483,7.867-17.483,17.483c0,9.616,7.867,17.483,17.483,17.483h46.622c9.616,0,17.483-7.867,17.483-17.483c0-9.616-7.867-17.483-17.483-17.483H110.863z"></path>
+			    </g>
+			  </svg>		 
+				<p>
+					Подобрать CRM
+				</p>
+		  </div>
+			<div class="pickup__close">	
+				<svg class="" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.855 5.855">
+				  <path d="M3.77,3.021a.129.129,0,0,1,0-.187L5.775.829a.289.289,0,0,0,.08-.187.289.289,0,0,0-.08-.187L5.4.08A.289.289,0,0,0,5.214,0a.243.243,0,0,0-.187.08L3.021,2.085a.129.129,0,0,1-.187,0L.829.08A.289.289,0,0,0,.642,0,.289.289,0,0,0,.455.08L.08.455A.289.289,0,0,0,0,.642.289.289,0,0,0,.08.829L2.085,2.834a.129.129,0,0,1,0,.187L.08,5.026a.258.258,0,0,0,0,.374l.374.374a.289.289,0,0,0,.187.08.289.289,0,0,0,.187-.08L2.834,3.77a.129.129,0,0,1,.187,0L5.026,5.775a.258.258,0,0,0,.374,0L5.775,5.4a.258.258,0,0,0,0-.374Z"></path>
+				</svg>				
+			</div>
+		</div>
+		<div class="popup" id="crmpopup">
+			<p class="popup__close"></p>
+			<div class="popup__content crmpopup__content">
+				<div class="popup__close">
+					<img src="img/close.svg" alt="">
+				</div>
+				<div class="crmpopup__top">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434.168 434.168" fill="#FF6D00">
+				    <g>
+				      <path d="M332.318,230.196V34.967H40.93v364.235h134.038c9.616,0,17.483,7.867,17.483,17.483s-7.867,17.483-17.483,17.483H23.446c-9.616,0-17.483-7.867-17.483-17.483V17.483C5.963,7.867,13.831,0,23.446,0h326.354c9.616,0,17.483,7.867,17.483,17.483v212.713c0,9.616-7.867,17.483-17.483,17.483S332.318,239.812,332.318,230.196z M422.357,272.739c-7.285-6.411-18.357-5.828-24.768,1.457l-95.867,106.648l-48.079-46.331c-6.993-6.702-18.066-6.411-24.768,0.583s-6.411,18.066,0.583,24.768l61.191,58.86c3.205,3.205,7.576,4.954,12.238,4.954c0.291,0,0.291,0,0.583,0c4.662-0.291,9.324-2.331,12.238-5.828l107.814-120.052C430.224,290.222,429.641,279.15,422.357,272.739z M268.212,101.986H110.863c-9.616,0-17.483,7.867-17.483,17.483s7.867,17.483,17.483,17.483h157.349c9.616,0,17.483-7.867,17.483-17.483S277.828,101.986,268.212,101.986z M285.696,215.627c0-9.616-7.867-17.483-17.483-17.483H110.863c-9.616,0-17.483,7.867-17.483,17.483c0,9.616,7.867,17.483,17.483,17.483h157.349C277.828,233.11,285.696,225.243,285.696,215.627z M110.863,291.388c-9.616,0-17.483,7.867-17.483,17.483c0,9.616,7.867,17.483,17.483,17.483h46.622c9.616,0,17.483-7.867,17.483-17.483c0-9.616-7.867-17.483-17.483-17.483H110.863z"></path>
+				    </g>
+				  </svg>
+					Узнайте какая CRM подходит вашему бизнесу
+				</div>
+				<form class="crmpopup__body">
+					<div class="crmpopup__wrapper active">
+						<div class="crmpopup__title">
+							Сколько у Вас сотрудников? (ответ влияет на подбор CRM)
+						</div>
+						<div class="crmpopup__subtitle">
+							Этот вопрос нужен, чтобы сразу убрать варианты, которые не подойдут Вашему бизнесу.
+						</div>
+						<div class="crmpopup__cards">
+							<div class="crmpopup__card">
+								<input name="quiz1" type="radio" id="crmpopup1">
+								<label for="crmpopup1">
+									<span></span>
+									1 - 10
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz1" type="radio" id="crmpopup2">
+								<label for="crmpopup2">
+									<span></span>
+									11 - 50
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz1" type="radio" id="crmpopup3">
+								<label for="crmpopup3">
+									<span></span>
+									51 - 200
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz1" type="radio" id="crmpopup4">
+								<label for="crmpopup4">
+									<span></span>
+									201 - 500
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz1" type="radio" id="crmpopup5">
+								<label for="crmpopup5">
+									<span></span>
+									501 и более
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="crmpopup__wrapper">
+						<div class="crmpopup__title">
+							Это первый опыт внедрения CRM?
+						</div>
+						<div class="crmpopup__cards">
+							<div class="crmpopup__card">
+								<input name="quiz2" type="radio" id="crmpopup6">
+								<label for="crmpopup6">
+									<span></span>
+									Да
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz2" type="radio" id="crmpopup7">
+								<label for="crmpopup7">
+									<span></span>
+									Нет,  уже используем, но хотим заменить на другое решение 
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="crmpopup__wrapper">
+						<div class="crmpopup__title">
+							Уточните Вашу текущую CRM, которой Вы недовольны.
+						</div>
+						<div class="crmpopup__subtitle">
+							Чтобы мы не стали её рекомендовать.
+						</div>
+						<div class="crmpopup__input">
+							<input type="text" placeholder='например: &quot;Интернет-магазин&quot;, &quot;Клиника&quot;,  или &quot;Производство&quot;'>
+						</div>
+					</div>
+					<div class="crmpopup__wrapper">
+						<div class="crmpopup__title">
+							Что нужно автоматизировать в первую очередь?
+						</div>
+						<div class="crmpopup__subtitle">
+							Какие процессы (выберите один или несколько)
+						</div>
+						<div class="crmpopup__cards">
+							<div class="crmpopup__card">
+								<input name="quiz3" type="checkbox" id="crmcheck1">
+								<label for="crmcheck1">
+									<span></span>
+									Продажи
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz3" type="checkbox" id="crmcheck2">
+								<label for="crmcheck2">
+									<span></span>
+									Учет посещений 
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz3" type="checkbox" id="crmcheck3">
+								<label for="crmcheck3">
+									<span></span>
+									Производство
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz3" type="checkbox" id="crmcheck4">
+								<label for="crmcheck4">
+									<span></span>
+									Управление сотрудниками 
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz3" type="checkbox" id="crmcheck5">
+								<label for="crmcheck5">
+									<span></span>
+									Управление проектами 
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz3" type="checkbox" id="crmcheck6">
+								<label for="crmcheck6">
+									<span></span>
+									<input type="text" placeholder="Другое">
+								</label>
+							</div>
+
+						</div>
+					</div>
+					<div class="crmpopup__wrapper">
+						<div class="crmpopup__title">
+							Уже используете телефонию?
+						</div>
+						<div class="crmpopup__subtitle">
+							Это актуально для тех бизнесов, где есть исходящие / входящие звонки клиентов.
+						</div>
+						<div class="crmpopup__cards">
+							<div class="crmpopup__card">
+								<input name="quiz5" type="radio" id="crmpopup14">
+								<label for="crmpopup14">
+									<span></span>
+									Нет, нужно будет выбрать и интегрировать в CRM 
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz5" type="radio" id="crmpopup15">
+								<label for="crmpopup15">
+									<span></span>
+									Не знаю, насколько это нужно. 
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz5" type="radio" id="crmpopup16">
+								<label for="crmpopup16">
+									<span></span>
+									Да
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="crmpopup__wrapper">
+						<div class="crmpopup__title">
+							Цель подбора
+						</div>
+						<div class="crmpopup__cards">
+							<div class="crmpopup__card">
+								<input name="quiz4" type="radio" id="crmpopup11">
+								<label for="crmpopup11">
+									<span></span>
+									Ищу специалиста по внедрению CRM, нужно быстро и качественно 
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz4" type="radio" id="crmpopup12">
+								<label for="crmpopup12">
+									<span></span>
+									Сделаю сам, интересуюсь справочно 
+								</label>
+							</div>
+							<div class="crmpopup__card">
+								<input name="quiz4" type="radio" id="crmpopup13">
+								<label for="crmpopup13">
+									<span></span>
+									Нужна общая консультация 
+								</label>
+							</div>
+						</div>
+					</div>
+				</form>
+				<div class="crmpopup__bottom">
+					<div class="crmpopup__info">
+						<p>
+							Готово: <b>0%</b>
+						</p>
+						<div class="crmpopup__bar">
+							<span></span>
+						</div>
+					</div>
+					<div class="crmpopup__actions">
+						<button class="crmpopup__prev button black">
+							Назад
+						</button>
+						<button class="crmpopup__next button">
+							Далее
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popup login" id="login">
+			<p class="popup__close"></p>
+			<div class="popup__content login__content">
+				<div class="popup__close">
+					<img src="img/close.svg" alt="">
+				</div>
+				
+				<div class="login__title">
+					Представьтесь
+				</div>
+				<div class="login__links">
+					<a class="button black" href="#" target="_blank">Yandex</a>
+					<a class="button black" href="#" target="_blank">Vkontakte</a>
+					<a class="button black" href="#" target="_blank">Google</a>
+				</div>
+				<a class="button" href="#">Вход для компаний</a>
+			</div>
+		</div>
+		<div class="popup" id="getresult">
+			<p class="popup__close"></p>
+			<form class="popup__content results__content">
+				<div class="popup__close">
+					<img src="img/close.svg" alt="">
+				</div>
+				<div class="results__title">
+					Заполните форму ниже для получения результатов
+				</div>
+				<div class="results__subtitle">
+					Выбор правильной CRM - это лишь первый шаг к автоматизации бизнеса, успех будет зависеть от того, как компания подошла к внедрению.
+				</div>
+				<div class="results__inputs">
+					<input type="text" placeholder="Имя">
+					<input type="text" placeholder="Почта">
+					<input type="text" placeholder="Телефон*" required>
+				</div>
+				<button class="button" href="#">Получить ответ экспертов</button>
+			</form>
+		</div>
+	</div>
+	<script src="js/nice-select2.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
